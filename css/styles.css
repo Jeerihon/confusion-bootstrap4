@@ -60,7 +60,7 @@ body {
 .modal-body {
   background-color: #D1C4E9; }
 
-.close {
+.modal .close {
   color: floralwhite; }
-  .close:hover {
+  .modal .close:hover {
     color: floralwhite; }

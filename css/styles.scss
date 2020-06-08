@@ -77,19 +77,21 @@ body {
   z-index: 1;
 }
 
-.modal-header {
-  background-color: $background-dark;
-  color: $lt-color;
-}
-
-.modal-body {
-  background-color: $background-pale;
-}
-
-.close {
-  color: $lt-color;
-
-  &:hover {
+.modal {
+  &-header {
+    background-color: $background-dark;
     color: $lt-color;
+  }
+
+  &-body {
+    background-color: $background-pale;
+  }
+
+  .close {
+    color: $lt-color;
+
+    &:hover {
+      color: $lt-color;
+    }
   }
 }
